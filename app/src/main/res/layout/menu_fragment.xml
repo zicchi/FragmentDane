@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Black Panther"
+        android:id="@+id/btnpanther"
+        android:textSize="13sp"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Yowis Ben"
+        android:id="@+id/btnyowis"
+        android:textSize="13sp"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Doctor Strange"
+        android:id="@+id/btndoctor"
+        android:textSize="11sp"
+        android:layout_weight="1" />
+</LinearLayout>
